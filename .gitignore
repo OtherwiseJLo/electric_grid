@@ -9,3 +9,4 @@ build
 *.yml
 .settings/
 bin/
+datagen/
