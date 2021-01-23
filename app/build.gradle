@@ -48,12 +48,12 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClass = 'dropwizard_gradle.App'
+    mainClass = 'electric_grid.App'
 }
 
 jar {
     manifest {
-        attributes 'Main-Class': 'dropwizard_gradle.App'
+        attributes 'Main-Class': 'electric_grid.App'
     }
     from {
         configurations.compile.collect {it.isDirectory() ? it : zipTree(it) }
